@@ -62,7 +62,7 @@ namespace Enfolder
             try
             {
                 // Copy file to send to folder
-                File.Copy(Application.ExecutablePath, this.enfolderSendToPath);
+                File.Copy(Application.ExecutablePath, this.enfolderSendToPath, true);
 
                 // Update the program's GUI
                 this.UpdateGui();
@@ -93,7 +93,7 @@ namespace Enfolder
         private void UpdateGui()
         {
             // Check if already exists
-            if (this.IsActive())
+            if (!this.IsActive())
             {
                 // Disable remove button
                 this.removeButton.Enabled = false;
@@ -187,7 +187,7 @@ namespace Enfolder
         private void OnSourceCodeGithubcomToolStripMenuItemClick(object sender, EventArgs e)
         {
             // Open GitHub
-            Process.Start("https://github.com/publicdomain/enfolder");
+            Process.Start("https://github.com/publicdomain/enfolder-sendto");
         }
 
         /// <summary>
