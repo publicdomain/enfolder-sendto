@@ -162,7 +162,7 @@ namespace Enfolder
         /// </summary>
         /// <param name="sender">Sender object.</param>
         /// <param name="e">Event arguments.</param>
-        private void OnMoreReleasesPublicDomainGiftcomToolStripMenuItemClick(object sender, EventArgs e)
+        private void OnWeeklyReleasesPublicDomainWeeklycomToolStripMenuItemClick(object sender, EventArgs e)
         {
             // Open website
             Process.Start("https://publicdomainweekly.com");
@@ -230,7 +230,7 @@ namespace Enfolder
             var aboutForm = new AboutForm(
                 $"About {programTitle}",
                 $"{programTitle} {version.Major}.{version.Minor}.{version.Build}",
-                $"Made for: Jasong222{Environment.NewLine}DonationCoder.com{Environment.NewLine}Day #128, Week #18 @ May 08, 2021",
+                $"Made for: Jasong222{Environment.NewLine}DonationCoder.com{Environment.NewLine}Day #192, Week #27 @ July 11, 2021",
                 licenseText,
                 this.Icon.ToBitmap())
             {

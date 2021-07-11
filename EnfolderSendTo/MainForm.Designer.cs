@@ -107,7 +107,7 @@ namespace Enfolder
         	this.moreReleasesPublicDomainGiftcomToolStripMenuItem.Name = "moreReleasesPublicDomainGiftcomToolStripMenuItem";
         	this.moreReleasesPublicDomainGiftcomToolStripMenuItem.Size = new System.Drawing.Size(313, 22);
         	this.moreReleasesPublicDomainGiftcomToolStripMenuItem.Text = "Weekly releases @ PublicDomainWeekly.com";
-        	this.moreReleasesPublicDomainGiftcomToolStripMenuItem.Click += new System.EventHandler(this.OnMoreReleasesPublicDomainGiftcomToolStripMenuItemClick);
+        	this.moreReleasesPublicDomainGiftcomToolStripMenuItem.Click += new System.EventHandler(this.OnWeeklyReleasesPublicDomainWeeklycomToolStripMenuItemClick);
         	// 
         	// originalThreadDonationCodercomToolStripMenuItem
         	// 
