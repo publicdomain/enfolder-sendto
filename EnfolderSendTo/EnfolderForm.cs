@@ -40,6 +40,9 @@ namespace Enfolder
             // Categorize directory and file for each source path
             foreach (var item in sourcePathList)
             {
+                // Add to list
+                this.itemListBox.Items.Add(item);
+
                 // Raise file or directory count
                 if (File.GetAttributes(item).HasFlag(FileAttributes.Directory))
                 {
